@@ -6,7 +6,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	inv_m <- NULL
 	
 	## redefines matrix and clears inverse cache
-    set <- function(y) {
+	set <- function(y) {
 			x <<- y
 			inv_m <<- NULL
 	}
